@@ -39,7 +39,7 @@ Instead of drawing shapes manually, you define operations:
     USE #1
     length = 100
 }
-'''
+```
 
 ## Deterministic Execution
 
