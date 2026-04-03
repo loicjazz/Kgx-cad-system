@@ -39,3 +39,85 @@ Instead of drawing shapes manually, you define operations:
     USE #1
     length = 100
 }
+
+## Deterministic Execution
+
+KGX is designed so that:
+	•	the same input always produces the same result
+	•	operations are explicit and traceable
+
+This makes it suitable for:
+	•	automation
+	•	validation
+	•	AI-generated workflows
+
+⸻
+
+## Automation-Ready Design
+
+KGX is intentionally structured to be:
+	•	easy to parse
+	•	predictable to execute
+	•	compatible with external systems
+
+It can act as a bridge between:
+	•	AI-generated instructions
+	•	real geometry creation
+
+⸻
+
+
+## Architecture Overview
+
+KGX is built around a classic language pipeline:
+	1.	Lexer → tokenizes input
+	2.	Parser → builds structured representation (AST)
+	3.	Execution Layer → interprets geometry operations
+
+The parser supports extensibility and flexible expressions using techniques such as Pratt parsing.
+
+⸻
+
+## AI + KGX (Exploration)
+
+One of the core motivations behind KGX is enabling workflows like:
+
+AI → structured KGX → deterministic execution
+
+This avoids:
+	•	ambiguous outputs
+	•	unpredictable geometry
+	•	unsafe direct execution
+
+Instead, AI produces structured intent, which KGX safely interprets.
+
+⸻
+
+## Current State
+
+KGX is an active experimental system exploring:
+	•	DSL design for CAD
+	•	automation-friendly geometry pipelines
+	•	integration with AI-generated inputs
+
+⸻
+
+## Future Directions
+	•	Constraint and parametric systems
+	•	Assembly integration (KASM)
+	•	Validation and simulation layers
+	•	AI-assisted design workflows
+	•	Scalable geometry engines
+
+⸻
+
+## What This Project Demonstrates
+	•	Domain-specific language design
+	•	Parser and interpreter architecture
+	•	Automation-oriented system thinking
+	•	Bridging AI outputs with deterministic systems
+
+⸻
+
+
+
